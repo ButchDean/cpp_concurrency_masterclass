@@ -1,5 +1,5 @@
 AC_PREREQ([2.71])
-AC_INIT([s1-how-to-handle-join-in-exception-scenarios])
+AC_INIT([handle-join-in-exception-scenarios], [1.0])
 
 AC_CONFIG_SRCDIR([src/main.cc])
 

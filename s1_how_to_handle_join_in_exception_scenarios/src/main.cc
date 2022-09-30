@@ -2,7 +2,7 @@
 #include <thread>
 #include <stdexcept>
 #include <chrono>
-#include "common_objs.h"
+#include <common_objs.h>
 
 void func_1()
 {
