@@ -11,7 +11,7 @@ class my_class {
 public:
 	void operator()()
 	{
-		std::cout << "hello from the class with function call operator \n";
+		std::cout << "Hello from the class with function call operator \n";
 	}
 };
 
@@ -25,8 +25,8 @@ int main()
 	std::thread thread2(mc);
 
 	//create thread using lambda expression
-	std::thread thread3([] {
-		std::cout << "hello from the lambda \n";
+	std::thread thread3([](){
+		std::cout << "Hello from the lambda \n";
 		});
 
 	thread1.join();
