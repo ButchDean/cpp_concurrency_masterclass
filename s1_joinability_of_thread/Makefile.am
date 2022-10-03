@@ -1,4 +1,4 @@
-bin_PROGRAMS = joindetach
+bin_PROGRAMS = join
 
-joindetach_CXXFLAGS = -std=c++17
-joindetach_SOURCES = src/main.cc
+join_CXXFLAGS = -std=c++17
+join_SOURCES = src/main.cc
