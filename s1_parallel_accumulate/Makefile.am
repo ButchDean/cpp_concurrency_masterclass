@@ -1,4 +1,4 @@
-bin_PROGRAMS = join
+bin_PROGRAMS = paccum
 
-join_CXXFLAGS = -Iinc -std=c++17 
-join_SOURCES = src/main.cc
+paccum_CXXFLAGS = -Iinc -std=c++17 
+paccum_SOURCES = src/main.cc
