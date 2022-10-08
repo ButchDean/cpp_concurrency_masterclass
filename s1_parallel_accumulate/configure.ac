@@ -1,5 +1,5 @@
 AC_PREREQ([2.71])
-AC_INIT([s1-joinability-of-thread], [1.0])
+AC_INIT([s1-parallel-accumulate], [1.0])
 
 AC_CONFIG_SRCDIR([src/main.cc])
 
