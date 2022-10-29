@@ -1,5 +1,5 @@
 AC_PREREQ([2.71])
-AC_INIT([s2-things-to-remember-when-using-mutex], [1.0])
+AC_INIT([s2-threadsafe-stack-implementation], [1.0])
 
 AC_CONFIG_SRCDIR([src/main.cc])
 
