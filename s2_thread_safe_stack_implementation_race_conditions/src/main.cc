@@ -1,7 +1,7 @@
 
 #include <iostream>
 
-#include "thread_safe_stack.h"
+#include <thread_safe_stack.h>
 
 int main()
 {
