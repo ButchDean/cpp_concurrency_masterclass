@@ -15,8 +15,8 @@ public:
 
 	bank_account(double _balance, std::string _name) :balance(_balance), name(_name) {}
 
-	bank_account(bank_account& const) = delete;
-	bank_account& operator=(bank_account& const) = delete;
+	bank_account(bank_account&) = delete;
+	bank_account& operator=(bank_account&) = delete;
 
 	void withdraw(double amount)
 	{
@@ -50,8 +50,8 @@ void run_code1()
 
 	bank_account account;
 
-	bank_account account_1(1000, "james");
-	bank_account account_2(2000, "Mathew");
+	bank_account account_1(1000, "James");
+	bank_account account_2(2000, "Matthew");
 
 	std::thread thread_1(&bank_account::transfer, &account, std::ref(account_1), std::ref(account_2), 500);
 	std::thread thread_2(&bank_account::transfer, &account, std::ref(account_2), std::ref(account_1), 200);
